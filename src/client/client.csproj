@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\IOT.Build\IOT.Common.props" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\IOT\IOT.Connections.Client\IOT.Connections.Client.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>$(CommonTargetFrameworks)</TargetFramework>
+  </PropertyGroup>
+
+</Project>
